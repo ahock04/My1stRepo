@@ -1,3 +1,4 @@
+import time 
 print("THE SUPERHERO")
 print("Are you ready? Yes/No")
 ready = input().title()
@@ -38,3 +39,6 @@ elif ready == "No":
     print("Your loss.")
 else:
     print("That is not a valid answer.")
+   
+
+time.sleep(100)
